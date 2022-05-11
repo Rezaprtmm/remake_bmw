@@ -19,27 +19,32 @@ h2{
     background-color: rgba(0,0,0,.2);
 }
 
-.image{
-    width: 100vh;
+.profilkiri{
+    position: relative;
     color: white;
-}
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+  }
 
-.image_img{
-    display: block;
-    width: 100%;
-}
-
-.image_overlay{
+.bottom-left {
     position: absolute;
-    top: 0;
-    left: 0;
+    bottom: 8px;
+    left: 16px;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,.2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  }
 
-}
+  .profilkanan{
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+  }
 
+
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 100%;
+    height: 100%;
+  }
 
